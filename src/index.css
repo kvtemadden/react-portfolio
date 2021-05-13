@@ -11,3 +11,254 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.me-auto {
+  margin-left: auto;
+  margin-right: 0!important;
+}
+
+.navbar-toggler {
+  color: rgba(255,255,255,.55);
+  border: none;
+}
+
+@media (min-width: 576px) {
+.ms-1 {
+  margin-left: 2rem!important;
+}
+}
+
+@media (max-width: 378px) {
+  .col-12 {
+      margin-left: -0.25rem;
+  }
+  }
+
+@media (max-width: 576px) {
+  .ms-1 {
+      margin-left: 0rem!important;
+  }
+  }
+
+/* Background pattern from Toptal Subtle Patterns */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png")
+}
+
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.03rem;
+  margin-bottom: 1rem;
+}
+
+#logo {
+  height: 40px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #db346c;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.frame {
+  border: 3px solid #212529;
+  padding: 8px;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 70px;
+}
+
+/* placeholder for images */
+.resize-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #212529;
+  padding: 8px;
+  margin-bottom: .5rem;
+}
+
+.bg {
+  background: #fff;
+  border: 3px solid #212529;
+  padding: 2rem;
+  padding-left: 2rem !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-logos {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.mid {
+  text-align: center;
+}
+
+#hero {
+  background-color: #212529;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 30vh;
+}
+
+#profBtns {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profBtns a {
+  background: none;
+  color: #db346c;
+  border: 2px solid #db346c;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 5px;
+  letter-spacing: 0.02rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+
+#profBtns a:hover {
+  background: #db346c;
+  color: #fff;
+}
+
+#divider {
+  position: relative;
+  margin-bottom: 13%;
+}
+
+.custom-shape-divider-top-1613058600 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.shape-fill {
+  fill: #212529;
+}
+
+#hero h1 {
+  color: #fff;
+  text-align: center;
+}
+
+#hero p {
+  color: #fff;
+  text-align: center;
+} 
+
+.arrow {
+  text-align: center;
+  margin: 6% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.arrow a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.arrow a:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.navbar-brand:hover {
+    border-bottom: none;
+}
+
+
+.hu {
+    border-bottom: solid 2.5px #db346c;
+}
+
+.faded {
+    opacity: 65%;
+}
+
+a {
+    text-decoration: none;
+    color:#db346c;
+}
+
+a:hover {
+    color:#db346c;
+    border-bottom:#db346c solid 2px;
+}
+
+.btn-pink {
+    background-color: #db346c;
+    color: #fff;
+}
+
+.btn-pink:active {
+  color: #fff;
+  background-color: #c52a5e;
+  border-color: #c52a5e;
+}
+
+.btn-pink:hover {
+  color: #fff;
+  background-color: #c92e61;
+  border-color: #c52a5e;
+}
+
+.btn-pink:focus {
+  color: #fff;
+  background-color:  #c92e61;
+  border-color: #c52a5e;
+  box-shadow: 0 0 0 0.25rem rgb(218 53 108 / 50%);
+}
+
+section .collapse.in {
+  display: block !important;
+}
+
+.navbar-collapse {
+  margin-left: auto;
+  position: fixed;
+  right: 2%;
+}
