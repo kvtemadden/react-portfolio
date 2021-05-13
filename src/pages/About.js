@@ -32,18 +32,18 @@ export function About() {
       <div className="row">
         <div className="col-6">
           <h3>Bio</h3>
-          <p>Hey, I'm Kate! I'm currently 21 working in Marketing and studying Web Development. I recently had a new addition to the family, Finn (pictured to the right), he's a Cocker Spaniel & absolutely brilliant.</p>
+          <p>Hey, I'm Kate! I'm currently 22 working in Marketing and studying Web Development. I recently had a new addition to the family, Finn (pictured to the right), he's a Cocker Spaniel & absolutely brilliant.</p>
           <p>One of my favourite times of year is Halloween because I absolutely love autumn. I love the crisp air (which isn't too cold) and particularly enjoy pumpkin picking. Plus, warm drinks after you've been outside in the cold? What's not to love!</p>
           <h3>Socials</h3> 
           <ul>
-            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/instagram.png" alt="Instagram logo"/><a href="https://www.instagram.com/kvtemadden/" target="_blank" title="Instagram Profile">Instagram</a></li>
-            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/facebook.png" alt="Faceboook logo"/><a href="https://www.facebook.com/xkatemadden" target="_blank" title="Instagram Profile">Facebook</a></li>
+            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/instagram.png?raw=true" alt="Instagram logo"/><a href="https://www.instagram.com/kvtemadden/" target="_blank" title="Instagram Profile">Instagram</a></li>
+            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/facebook.png?raw=true" alt="Faceboook logo"/><a href="https://www.facebook.com/xkatemadden" target="_blank" title="Instagram Profile">Facebook</a></li>
           </ul>
         </div>
         <div className="col-6 mid">
-          <img className="img-fluid resize-img" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/Kate_and_Mol.jpg" alt="Kate (me) with brown hair, and Mollie (my partner), pumpkin picking!"/>
+          <img className="img-fluid resize-img" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/Kate_and_Mol.jpg?raw=true" alt="Kate (me) with brown hair, and Mollie (my partner), pumpkin picking!"/>
           <br/>
-          <img className="img-fluid resize-img" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/Finn.jpg" alt="Finn the dog!"/>
+          <img className="img-fluid resize-img" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/Finn.jpg?raw=true" alt="Finn the dog!"/>
         </div>
       </div>
     </article>
