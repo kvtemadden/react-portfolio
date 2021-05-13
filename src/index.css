@@ -257,8 +257,10 @@ section .collapse.in {
   display: block !important;
 }
 
-.navbar-collapse {
+.navbar-nav {
   margin-left: auto;
-  position: fixed;
-  right: 2%;
+}
+
+.nav-link {
+  text-transform: lowercase;
 }
