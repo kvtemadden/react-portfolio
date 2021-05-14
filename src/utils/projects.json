@@ -1,0 +1,13 @@
+[
+    {
+    "_id": 1,
+    "name": "Covidwise",
+    "desc": "Covid monitoring app",
+    "github_url": "https://kvtemadden.github.io/Covidwise/"
+    },
+    {
+    "_id": 2,
+    "name": "Tradewise",
+    "desc": "Tradesperson site"
+    }
+]

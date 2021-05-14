@@ -7,9 +7,9 @@ export function About() {
 <div className="container">
   <h1 className="col">Hey, I'm <span className="hu">Kate Madden</span>.</h1>
   <div className="row col-sm-8 col-md-6 mt-5" id="profBtns">
-    <a className="col mx-2" href="https://github.com/kvtemadden" target="_blank">GitHub</a>
-    <a className="col mx-2" href="https://www.linkedin.com/in/kate-madden-703612125/" target="_blank">LinkedIn</a>
-    <a className="col mx-2" href="https://drive.google.com/file/d/1qKPYFwN7GGvhow31_IqjD1DwMvZkEsGz/view?usp=sharing" target="_blank">CV</a>
+    <a className="col mx-2" href="https://github.com/kvtemadden" target="_blank" rel="noreferrer">GitHub</a>
+    <a className="col mx-2" href="https://www.linkedin.com/in/kate-madden-703612125/" target="_blank" rel="noreferrer">LinkedIn</a>
+    <a className="col mx-2" href="https://drive.google.com/file/d/1qKPYFwN7GGvhow31_IqjD1DwMvZkEsGz/view?usp=sharing" target="_blank" rel="noreferrer">CV</a>
   </div>
   <p className="col faded mt-5">Scroll down...</p>
   <div className="arrow bounce">
@@ -36,8 +36,8 @@ export function About() {
           <p>One of my favourite times of year is Halloween because I absolutely love autumn. I love the crisp air (which isn't too cold) and particularly enjoy pumpkin picking. Plus, warm drinks after you've been outside in the cold? What's not to love!</p>
           <h3>Socials</h3> 
           <ul>
-            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/instagram.png?raw=true" alt="Instagram logo"/><a href="https://www.instagram.com/kvtemadden/" target="_blank" title="Instagram Profile">Instagram</a></li>
-            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/facebook.png?raw=true" alt="Faceboook logo"/><a href="https://www.facebook.com/xkatemadden" target="_blank" title="Instagram Profile">Facebook</a></li>
+            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/instagram.png?raw=true" alt="Instagram logo"/><a href="https://www.instagram.com/kvtemadden/" target="_blank" rel="noreferrer" title="Instagram Profile">Instagram</a></li>
+            <li><img className="social-logos" src="https://github.com/kvtemadden/portfolio/blob/main/Assets/facebook.png?raw=true" alt="Faceboook logo"/><a href="https://www.facebook.com/xkatemadden" target="_blank" rel="noreferrer" title="Instagram Profile">Facebook</a></li>
           </ul>
         </div>
         <div className="col-6 mid">
