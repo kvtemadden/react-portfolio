@@ -3,7 +3,9 @@
     "_id": 1,
     "name": "Covidwise",
     "desc": "Covid monitoring app",
-    "github_url": "https://kvtemadden.github.io/Covidwise/"
+    "git_url": "https://kvtemadden.github.io/Covidwise/",
+    "proj_url": "https://kvtemadden.github.io/Covidwise/",
+    "thumbnail":"https://github.com/kvtemadden/Covidwise/raw/main/Assets/Images/covidwise-home.PNG"
     },
     {
     "_id": 2,

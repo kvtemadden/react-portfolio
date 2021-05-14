@@ -1,7 +1,7 @@
 import React from "react";
 import project_info from "../utils/projects";
 import Project from "../components/Project"
-import { Col, Row, Container } from "../components/Grid";
+import { Container } from "../components/Grid";
 
 export function Portfolio() {
 
@@ -9,15 +9,11 @@ export function Portfolio() {
 <div>
 <section className="mx-auto mt-5 container">
     <div className="row bg">
-      <h2>Portfolio</h2>
-      <div className="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
-        <Container>
+      <h2 class="col-12">Portfolio</h2>
               {project_info.map((project, index) => {
                   console.log(project);
-                return <Project key={project._id} name={project.name} desc={project.desc} github_url={project.github_url} thumbnail_alt={project.thumbnail_alt} thumbnail={project.thumbnail} />
+                return <Project key={project._id} name={project.name} desc={project.desc} git_url={project.git_url} proj_url={project.proj_url} thumbnail={project.thumbnail} />
               })}
-        </Container>
-      </div>
     </div>
   </section>
 </div>
