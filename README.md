@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# React Portfolio
+Building a portfolio of my work using React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio uses create-react-app.
 
-## Available Scripts
+## Contents
+Section | Description
+------------ | -------------
+[Screenshot](#screenshot) | Screenshots of the React Portfolio and a link to the repo.
+[Functionality](#functionality) | Information on the functionality of the React Portfolio.
+[Licence](#licence) | Licence for the source code
 
-In the project directory, you can run:
+## Screenshot
+![Screenshot of working React Portfolio](https://github.com/kvtemadden/portfolio/raw/main/Assets/AboutMe_screenshot.PNG)
 
-### `npm start`
+You can access the React Portfolio [here](https://kvtemadden-portfolio.herokuapp.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can access the GitHub Repo via [this link](https://github.com/kvtemadden/react-portfolio)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About Me
+The content on this page gives a little bit of information about me.
 
-### `npm test`
+I customised it by adding a hero section to make the page a little bit more interesting.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This section includes my CV, LinkedIn profile and GitHub links too.
 
-### `npm run build`
+There are also links to my social media accounts, which are accompanied by the logos for the particular sites.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You'll see to the right of the text are two images, which are both formatted with a border and height/width to maintain a square until the page is too small. In the case that it is too small, for visibility, the image reduces in width and gains in height.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
+The contact page has a form that doesn't currently submit correctly, but after some research I found that the information does actually get sent to the page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The user will input their name, email and the message they want to send before they click on the bootstrap button "Submit message". At some point I plan to come back to this and set it up correctly, but I'm not entirely sure how to access the server at this point.
 
-### `npm run eject`
+## Portfolio
+This part of the site has been altered since my original portfolio to display as "polaroid" cards.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The cards are mapped from a JSON file which contains the information for all of my individual projects.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All of the cards have the relevant screenshots, title and links in order to see the repo and live site.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The card layout is responsive to the page/device resolution.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Consistencies
+Below are the constant items that are maintained across the site.
 
-## Learn More
+### Navigation Bar
+The navigation bar is a dark theme, pulled from Bootstrap, and is responsive to device size.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I've added in a logo for my site, which is also shown in the favicon. Clicking the logo will take you back to the index page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Sticky footer
+As a bonus, I took inspiration from the Bootstrap sticky footer bar but I centred the text instead. This is constantly in display on all devices and there is always a 10px gap between the content on the page and the footer when the user scrolls to the bottom of the page.
 
-### Code Splitting
+### Boostrap grid system
+There is a section area which contains all of the main content on the page. This area is created using the Bootstrap grid system in order to allow a simple responsive layout.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is identified as the content between the `<section>` tags.
 
-### Analyzing the Bundle Size
+All of the content in these areas are displayed on a white background which has a border (the colour of which matches the navigation bar).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Licence
+> This site was created under the standard MIT licence.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![GitHub](https://img.shields.io/github/license/kvtemadden/portfolio?color=%23203333&label=LICENCED%20AS&style=for-the-badge)
