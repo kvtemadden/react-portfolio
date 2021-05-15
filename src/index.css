@@ -89,16 +89,20 @@ h2 {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border: 3px solid #212529;
+  border: 3px solid #343a40;
   padding: 8px;
   margin-bottom: .5rem;
 }
 
 .bg {
   background: #fff;
-  border: 3px solid #212529;
+  border: 3px solid #343a40;
   padding: 2rem;
   padding-left: 2rem !important;
+}
+
+.bg-dark {
+  background: #343a40;
 }
 
 ul {
@@ -116,7 +120,7 @@ ul {
 }
 
 #hero {
-  background-color: #212529;
+  background-color: #343a40;
   height: 100vh;
   width: 100vw;
   padding-top: 30vh;
@@ -160,7 +164,7 @@ ul {
 }
 
 .shape-fill {
-  fill: #212529;
+  fill: #343a40;
 }
 
 #hero h1 {
@@ -302,4 +306,20 @@ figure h5 {
 
 .portfolio {
   justify-content: center;
+}
+
+.custom-shape-divider-top-1621079711 .shape-fill {
+  fill: #343a40;
+}
+
+.header {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  margin: 0;
+  height: 30vh;
+  padding: 80px 20px;
+  margin-bottom: -1px;
+  margin-top: -2px;
+  border: solid 2px #343a40;
 }

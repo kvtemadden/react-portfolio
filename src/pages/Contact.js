@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
-export function About() {
+export function Contact() {
 
   return (
+    <>
+    <Header page="Contact"/>
 <section class="mx-auto mt-5 container">
 <div class="row bg">
   <h2 class="col-12">Get in touch!</h2>
@@ -24,7 +27,8 @@ export function About() {
     <p class="col-12 mt-5">07123456789  |  <a href="mailto:kate@email.com">kate@email.com</a></p>
   </div>
 </section>
+</>
 );
 }
 
-export default About;
+export default Contact;

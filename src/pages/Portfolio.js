@@ -1,12 +1,13 @@
 import React from "react";
 import project_info from "../utils/projects";
 import Project from "../components/Project"
-import { Container } from "../components/Grid";
+import Header from "../components/Header";
 
 export function Portfolio() {
 
   return (
 <div>
+<Header page="Portfolio" />
 <section className="mx-auto mt-5 container">
     <div className="row bg portfolio">
       <h2 class="col-12">Portfolio</h2>
