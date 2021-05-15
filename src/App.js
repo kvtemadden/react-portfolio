@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import NoMatch from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <NoMatch />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
