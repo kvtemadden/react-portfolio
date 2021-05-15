@@ -10,6 +10,41 @@
     {
     "_id": 2,
     "name": "Tradewise",
-    "desc": "Tradesperson site"
+    "desc": "Tradesperson site",
+    "git_url":"https://github.com/kvtemadden/tradewise",
+    "proj_url": "https://uob-tradewise.herokuapp.com/",
+    "thumbnail": "https://github.com/kvtemadden/portfolio/blob/main/Assets/tradewise.PNG?raw=true"
+    },
+    {
+    "_id": 3,
+    "name": "Quiz",
+    "desc": "A coding quiz",
+    "git_url":"https://github.com/kvtemadden/quiz",
+    "proj_url": "https://kvtemadden.github.io/quiz/",
+    "thumbnail": "https://github.com/kvtemadden/quiz/raw/main/Assets/screenshot_of_quiz.PNG?raw=true"
+    },
+    {
+    "_id": 4,
+    "name": "Tech Blog",
+    "desc": "A tech blog which requires sign in",
+    "git_url":"https://github.com/kvtemadden/tech-blog",
+    "proj_url": "https://kvtemadden-tech-blog.herokuapp.com/",
+    "thumbnail": "https://github.com/kvtemadden/tech-blog/raw/main/Assets/tech-blog.PNG?raw=true"
+    },
+    {
+    "_id": 5,
+    "name": "Employee Directory",
+    "desc": "A directory of employees",
+    "git_url":"https://github.com/kvtemadden/employee-directory",
+    "proj_url": "https://kvtemadden-employee-directory.herokuapp.com/",
+    "thumbnail": "https://github.com/kvtemadden/employee-directory/raw/main/assets/employee-directory.PNG?raw=true"
+    },
+    {
+    "_id": 6,
+    "name": "Workout Tracker",
+    "desc": "A workout tracker for fitness",
+    "git_url":"https://github.com/kvtemadden/workout-tracker",
+    "proj_url": "https://kvtemadden-workout-tracker.herokuapp.com/",
+    "thumbnail": "https://github.com/kvtemadden/workout-tracker/raw/main/public/imgs/workout-tracker.PNG?raw=true"
     }
 ]

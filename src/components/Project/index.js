@@ -4,11 +4,10 @@ function Project(props) {
 
     return (
       <figure>
+      <h5>{props.name}</h5>
       <img src={`${props.thumbnail}`} alt={`${props.desc}`} />
       <figcaption>
-        {props.name}
-        <br />
-        <a href={`${props.proj_url}`} target="_blank" rel="noreferrer" title={`${props.desc}`}>Take a peek!</a>  ||  <a href={`${props.git_url}`} target="_blank" rel="noreferrer" title={`${props.desc}`}>View the Repository</a>
+        <a href={`${props.proj_url}`} target="_blank" rel="noreferrer" title={`${props.desc}`}>Take a peek!</a>  ||  <a href={`${props.git_url}`} target="_blank" rel="noreferrer" title={`${props.desc}`}>GitHub Repo</a>
       </figcaption>
        </figure>
     );

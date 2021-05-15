@@ -8,7 +8,7 @@ export function Portfolio() {
   return (
 <div>
 <section className="mx-auto mt-5 container">
-    <div className="row bg">
+    <div className="row bg portfolio">
       <h2 class="col-12">Portfolio</h2>
               {project_info.map((project, index) => {
                   console.log(project);
