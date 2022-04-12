@@ -14,7 +14,7 @@
         "desc": "Job advert automation",
         "git_url": "adbuilder.io",
         "proj_url": "app.adbuilder.io",
-        "thumbnail": "https://github.com/kvtemadden/Covidwise/raw/main/Assets/Images/covidwise-home.PNG",
+        "thumbnail": "https://github.com/kvtemadden/react-portfolio/blob/main/src/utils/img/Dashboard-on-ipad-2.png?raw=true",
         "type": "mkt"
     },
     {
@@ -41,7 +41,7 @@
         "desc": "D&I calculator for job adverts",
         "git_url": "adgrader.io",
         "proj_url": "app.adgrader.io",
-        "thumbnail": "https://github.com/kvtemadden/tech-blog/raw/main/Assets/tech-blog.PNG?raw=true",
+        "thumbnail": "https://github.com/kvtemadden/react-portfolio/blob/main/src/utils/img/AdGrader-in-ipad.png?raw=true",
         "type": "mkt"
     },    
     {

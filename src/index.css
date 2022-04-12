@@ -411,6 +411,7 @@ figure{
 figure img{
   width: 100%;
   height: 140px;
+  object-fit: cover;
 }
 figure figcaption{
   text-align: center;

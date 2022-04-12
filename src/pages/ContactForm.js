@@ -138,6 +138,7 @@ const ContactForm = () => {
                   Submit
                 </button>
               </form>
+              <p className="col-12 mt-5">07919 586 739  |  <a href="mailto:katy.madden99@email.com">katy.madden99@gmail.com</a></p>
             </div>
             <ToastContainer />
           </div>
