@@ -7,7 +7,7 @@ export function About() {
       <section id="hero">
         <div className="container">
           <h1 className="col">Hey, I'm <span className="hu">Kate Madden</span>.</h1>
-          <p class="small-title middle mt-4"><span class="faded-20">Full Stack Web Developer </span><span class="badge badge-secondary pink-bg badge-pink">Cert</span></p>
+          <p class="small-title middle mt-4"><span class="faded-20">Marketer | Developer | Problem Solver </span><span class="badge badge-secondary pink-bg badge-pink">Cert</span></p>
           <p className="col faded mt-5">Scroll down...</p>
           <div className="arrow bounce">
             <a className="fa fa-arrow-down fa-2x" href="#aboutMe"></a>
