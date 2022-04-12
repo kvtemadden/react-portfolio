@@ -1,58 +1,84 @@
 [
     {
-    "_id": 1,
-    "name": "Covidwise",
-    "desc": "Covid monitoring app",
-    "git_url": "https://kvtemadden.github.io/Covidwise/",
-    "proj_url": "https://kvtemadden.github.io/Covidwise/",
-    "thumbnail":"https://github.com/kvtemadden/Covidwise/raw/main/Assets/Images/covidwise-home.PNG"
+        "_id": 1,
+        "name": "Covidwise",
+        "desc": "Covid monitoring app",
+        "git_url": "https://kvtemadden.github.io/Covidwise/",
+        "proj_url": "https://kvtemadden.github.io/Covidwise/",
+        "thumbnail": "https://github.com/kvtemadden/Covidwise/raw/main/Assets/Images/covidwise-home.PNG",
+        "type": "dev"
     },
     {
-    "_id": 2,
-    "name": "Tradewise",
-    "desc": "Tradesperson site",
-    "git_url":"https://github.com/kvtemadden/tradewise",
-    "proj_url": "https://uob-tradewise.herokuapp.com/",
-    "thumbnail": "https://github.com/kvtemadden/portfolio/blob/main/Assets/tradewise.PNG?raw=true"
+        "_id": 2,
+        "name": "AdBuilder",
+        "desc": "Job advert automation",
+        "git_url": "adbuilder.io",
+        "proj_url": "app.adbuilder.io",
+        "thumbnail": "https://github.com/kvtemadden/Covidwise/raw/main/Assets/Images/covidwise-home.PNG",
+        "type": "mkt"
     },
     {
-    "_id": 3,
-    "name": "Quiz",
-    "desc": "A coding quiz",
-    "git_url":"https://github.com/kvtemadden/quiz",
-    "proj_url": "https://kvtemadden.github.io/quiz/",
-    "thumbnail": "https://github.com/kvtemadden/quiz/raw/main/Assets/screenshot_of_quiz.PNG?raw=true"
+        "_id": 3,
+        "name": "Tradewise",
+        "desc": "Tradesperson site",
+        "git_url": "https://github.com/kvtemadden/tradewise",
+        "proj_url": "https://uob-tradewise.herokuapp.com/",
+        "thumbnail": "https://github.com/kvtemadden/portfolio/blob/main/Assets/tradewise.PNG?raw=true",
+        "type": "dev"
     },
     {
-    "_id": 4,
-    "name": "Tech Blog",
-    "desc": "A tech blog which requires sign in",
-    "git_url":"https://github.com/kvtemadden/tech-blog",
-    "proj_url": "https://kvtemadden-tech-blog.herokuapp.com/",
-    "thumbnail": "https://github.com/kvtemadden/tech-blog/raw/main/Assets/tech-blog.PNG?raw=true"
+        "_id": 4,
+        "name": "Quiz",
+        "desc": "A coding quiz",
+        "git_url": "https://github.com/kvtemadden/quiz",
+        "proj_url": "https://kvtemadden.github.io/quiz/",
+        "thumbnail": "https://github.com/kvtemadden/quiz/raw/main/Assets/screenshot_of_quiz.PNG?raw=true",
+        "type": "dev"
     },
     {
-    "_id": 5,
-    "name": "Employee Directory",
-    "desc": "A directory of employees",
-    "git_url":"https://github.com/kvtemadden/employee-directory",
-    "proj_url": "https://kvtemadden-employee-directory.herokuapp.com/",
-    "thumbnail": "https://github.com/kvtemadden/employee-directory/raw/main/assets/employee-directory.PNG?raw=true"
+        "_id": 5,
+        "name": "AdGrader",
+        "desc": "D&I calculator for job adverts",
+        "git_url": "adgrader.io",
+        "proj_url": "app.adgrader.io",
+        "thumbnail": "https://github.com/kvtemadden/tech-blog/raw/main/Assets/tech-blog.PNG?raw=true",
+        "type": "mkt"
+    },    
+    {
+        "_id": 5,
+        "name": "Employee Directory",
+        "desc": "A directory of employees",
+        "git_url": "https://github.com/kvtemadden/employee-directory",
+        "proj_url": "https://kvtemadden-employee-directory.herokuapp.com/",
+        "thumbnail": "https://github.com/kvtemadden/employee-directory/raw/main/assets/employee-directory.PNG?raw=true",
+        "type": "dev"
+    },
+
+    {
+        "_id": 6,
+        "name": "Workout Tracker",
+        "desc": "A workout tracker for fitness",
+        "git_url": "https://github.com/kvtemadden/workout-tracker",
+        "proj_url": "https://kvtemadden-workout-tracker.herokuapp.com/",
+        "thumbnail": "https://github.com/kvtemadden/workout-tracker/raw/main/public/imgs/workout-tracker.PNG?raw=true",
+        "type": "dev"
     },
     {
-    "_id": 6,
-    "name": "Workout Tracker",
-    "desc": "A workout tracker for fitness",
-    "git_url":"https://github.com/kvtemadden/workout-tracker",
-    "proj_url": "https://kvtemadden-workout-tracker.herokuapp.com/",
-    "thumbnail": "https://github.com/kvtemadden/workout-tracker/raw/main/public/imgs/workout-tracker.PNG?raw=true"
+        "_id": 7,
+        "name": "Google Book Search",
+        "desc": "A search tool for finding Google's available books",
+        "git_url": "https://github.com/kvtemadden/google-books",
+        "proj_url": "https://kvtemadden-books-library.herokuapp.com/",
+        "thumbnail": "https://github.com/kvtemadden/google-books/raw/main/assets/google-books.PNG?raw=true",
+        "type": "dev"
     },
     {
-    "_id": 7,
-    "name": "Google Book Search",
-    "desc": "A search tool for finding Google's available books",
-    "git_url":"https://github.com/kvtemadden/google-books",
-    "proj_url": "https://kvtemadden-books-library.herokuapp.com/",
-    "thumbnail": "https://github.com/kvtemadden/google-books/raw/main/assets/google-books.PNG?raw=true"
+        "_id": 8,
+        "name": "Tech Blog",
+        "desc": "A tech blog which requires sign in",
+        "git_url": "https://github.com/kvtemadden/tech-blog",
+        "proj_url": "https://kvtemadden-tech-blog.herokuapp.com/",
+        "thumbnail": "https://github.com/kvtemadden/tech-blog/raw/main/Assets/tech-blog.PNG?raw=true",
+        "type": "dev"
     }
 ]

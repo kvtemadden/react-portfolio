@@ -13,7 +13,7 @@ export function Portfolio() {
       <h2 className="col-12">Portfolio</h2>
               {project_info.map((project, index) => {
                   console.log(project);
-                return <Project key={project._id} name={project.name} desc={project.desc} git_url={project.git_url} proj_url={project.proj_url} thumbnail={project.thumbnail} />
+                return <Project key={project._id} type={project.type} name={project.name} desc={project.desc} git_url={project.git_url} proj_url={project.proj_url} thumbnail={project.thumbnail} />
               })}
     </div>
   </section>

@@ -298,13 +298,13 @@ ul {
 }
 
 .html {width: 98%; background-color: #04AA6D;} /* Green */
-.css {width: 95%; background-color: #2196F3;} /* Blue */
-.js {width: 82%; background-color: #f44336;} /* Red */
-.react {width: 38%; background-color: #f44336;} /* Red */
-.node {width: 82%; background-color: #f44336;} /* Red */
-.mongo {width: 82%; background-color: #f44336;} /* Red */
-.sql {width: 82%; background-color: #f44336;} /* Red */
-.cmd {width: 82%; background-color: #f44336;} /* Red */
+.css {width: 95%; background-color: #04AA6D;} /* Blue */
+.js {width: 82%; background-color: #2196F3;} /* Red */
+.react {width: 38%; background-color: #f4d836;} /* Red */
+.node {width: 82%; background-color: #2196F3;} /* Red */
+.mongo {width: 82%; background-color: #2196F3;} /* Red */
+.sql {width: 82%; background-color: #2196F3;} /* Red */
+.cmd {width: 82%; background-color: #2196F3;} /* Red */
 
 
 
