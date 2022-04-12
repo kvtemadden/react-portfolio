@@ -1,10 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.color-white {
+  color: white;
 }
 
 code {
@@ -351,6 +359,26 @@ a:hover {
   box-shadow: 0 0 0 0.25rem rgb(218 53 108 / 50%);
 }
 
+.btn.color-white:active {
+color: #fff;
+background-color: #0000003b;
+border-color: #000000c2;
+}
+
+.btn.color-white:hover {
+color: #fff;
+background-color: #0000003b;
+border-color: #000000c2;
+}
+
+.btn.color-white:focus {
+color: #fff;
+background-color: #0000003b;
+border-color: #000000c2;
+box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+
 section .collapse.in {
   display: block !important;
 }
@@ -416,4 +444,8 @@ figure h5 {
   margin-bottom: -1px;
   margin-top: -2px;
   border: solid 2px #343a40;
+}
+
+.hide {
+  display: none;
 }

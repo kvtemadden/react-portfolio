@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.min.css';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from "../components/Header";
 
 const ContactForm = () => {
@@ -14,8 +14,8 @@ const ContactForm = () => {
   
   // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
-    toast('Form sent!', {
-      position: 'bottom-right',
+    toast.success('Message sent successfully!', {
+      position: 'top-center',
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,

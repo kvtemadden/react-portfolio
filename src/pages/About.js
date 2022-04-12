@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "../components/Skills";
 
 export function About() {
   return (
@@ -35,50 +36,7 @@ export function About() {
             </article>
           </div>
         </section>
-        <section className="mx-auto mt-5 bg-dark">
-          <div class="container no-mb middle">
-            <h2 class="spc white-text">skills</h2>
-            <p class="white-text left-align skill-label">HTML</p>
-            <div class="skill-container">
-              <div class="skills html"></div>
-            </div>
-
-            <p class="white-text left-align skill-label">CSS</p>
-            <div class="skill-container">
-              <div class="skills css"></div>
-            </div>
-
-            <p class="white-text left-align skill-label">JavaScript</p>
-            <div class="skill-container">
-              <div class="skills js"></div>
-            </div>
-
-            <p class="white-text left-align skill-label">React</p>
-            <div class="skill-container">
-              <div class="skills react"></div>
-            </div>
-
-            <p class="white-text left-align skill-label">Node</p>
-            <div class="skill-container">
-              <div class="skills node"></div>
-            </div>
-
-            <p class="white-text left-align skill-label">MongoDB</p>
-            <div class="skill-container">
-              <div class="skills mongo"></div>
-            </div>
-
-            <p class="white-text left-align skill-label">mySQL</p>
-            <div class="skill-container">
-              <div class="skills sql"></div>
-            </div>
-
-            <p class="white-text left-align skill-label">Command Line</p>
-            <div class="skill-container">
-              <div class="skills cmd"></div>
-            </div>
-          </div>
-        </section>
+        <Skills/>
         <section className="mx-auto bg-white">
           <div class="container short-border middle">
             <h2 class="spc">let's connect</h2>
