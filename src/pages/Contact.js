@@ -24,11 +24,12 @@ export function Contact() {
       </div>
       <button type="submit" className="btn btn-pink">Send Message</button>
     </form>
-    <p className="col-12 mt-5">07123456789  |  <a href="mailto:kate@email.com">kate@email.com</a></p>
+    <p className="col-12 mt-5">07919 586 739  |  <a href="mailto:katy.madden99@email.com">katy.madden99@gmail.com</a></p>
   </div>
 </section>
 </>
 );
 }
+
 
 export default Contact;

@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import ContactForm from "./pages/ContactForm";
 import Portfolio from "./pages/Portfolio";
 import NoMatch from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+require('dotenv').config();
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Portfolio />
           </Route>
           <Route exact path="/contact">
-            <Contact />
+            <ContactForm />
           </Route>
           <Route>
             <NoMatch />
