@@ -12,8 +12,8 @@
         "_id": 2,
         "name": "AdBuilder",
         "desc": "Job advert automation",
-        "git_url": "adbuilder.io",
-        "proj_url": "app.adbuilder.io",
+        "git_url": "https://adbuilder.io",
+        "proj_url": "https://app.adbuilder.io/",
         "thumbnail": "https://github.com/kvtemadden/react-portfolio/blob/main/src/utils/img/Dashboard-on-ipad-2.png?raw=true",
         "type": "mkt"
     },
@@ -39,8 +39,8 @@
         "_id": 5,
         "name": "AdGrader",
         "desc": "D&I calculator for job adverts",
-        "git_url": "adgrader.io",
-        "proj_url": "app.adgrader.io",
+        "git_url": "https://adgrader.io",
+        "proj_url": "https://app.adgrader.io",
         "thumbnail": "https://github.com/kvtemadden/react-portfolio/blob/main/src/utils/img/AdGrader-in-ipad.png?raw=true",
         "type": "mkt"
     },    
